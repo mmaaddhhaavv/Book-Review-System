@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5000/api', // Your backend URL
+    baseURL: 'https://book-review-system-oxn9.onrender.com', // Your backend URL
 });
 
 // Interceptor to add the token to every request
